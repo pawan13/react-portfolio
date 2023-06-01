@@ -1,8 +1,10 @@
 import React from 'react'
 import ec from '../assests/img/ec.avif'
+import Layout from './Layout'
 
 const Projects = () => {
   return (
+    <Layout>
     <div>
        <section className="section4 flex" id="projects">
      <h2 className="title">My Recent Work</h2>
@@ -46,6 +48,7 @@ const Projects = () => {
      </div>
     </section>
     </div>
+    </Layout>
   )
 }
 

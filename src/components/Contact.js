@@ -1,7 +1,9 @@
 import React from 'react'
+import Layout from './Layout'
 
 const Contact = () => {
   return (
+    <Layout>
     <section className="section6 flex" id="contact">
      <h2 className="ttile">Get in Touch</h2>
  
@@ -35,6 +37,7 @@ const Contact = () => {
      </div>
       
     </section>
+    </Layout>
   )
 }
 

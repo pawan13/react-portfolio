@@ -1,12 +1,11 @@
 import './App.css';
 import './style.css'
-import Header from './components/Header';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import About from './components/About';
-import Footer from './components/Footer';
 import Contact from './components/Contact';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,27 +13,21 @@ function App() {
         <input type="checkbox" id="darkmode" className="dark-mode-checkbox"/>
     
     <div className="wrapper">
-    {/* <!-- header  --> */}
-    <Header />
-    {/* <!-- hero component --> */}
-    <Hero />
-    {/* <!-- skills component --> */}
-     <Skills />
- 
-    {/* <!-- projects Component--> */}
-   <Projects />
- 
-    {/* <!-- About Component  --> */}
-   <About />
- 
-    {/* <!-- get in touch section  --> */}
-   <Contact />
-
-    {/* <!-- footer  --> */}
-    <Footer />
+    <Routes>
+      <Route path="/" element={<Hero/>} />
+      <Route path="/skills" element={<Skills/>} />
+      <Route path="/projects" element={<Projects/>} />
+      <Route path="/about" element={<About/>} />
+      <Route path="/contact" element={<Contact/>} />
+    </Routes>
  </div>
     </div>
   );
 }
 
 export default App;
+
+//1. npm i react-router-dom
+//2. wrap entire app with BrowserRouter in index.js or App.js
+//3. use Routes components to warp all pages
+//4. Define individual page by using Route comp.

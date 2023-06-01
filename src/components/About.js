@@ -1,13 +1,15 @@
 import React from 'react'
 import Pawan from '../assests/img/Pawan_Edited.jpg'
+import Layout from './Layout'
 
 const About = () => {
   return (
+    <Layout>
     <section className="section5 flex" id="about">
     <h2 className="title">About me</h2>
     <div className="about-container flex">
         <div className="left">
-            <image src={Pawan} alt="image"/>
+            <img src={Pawan} alt="profile-pic"/>
         </div>
         <div className="right flex">
             <h2>Pawan Siwakoti</h2>
@@ -25,6 +27,7 @@ const About = () => {
         </div>
     </div>
    </section>
+   </Layout>
   )
 }
 

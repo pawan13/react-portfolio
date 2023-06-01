@@ -1,10 +1,11 @@
 import React from 'react'
 import Pawan from '../assests/img/Pawan_Edited.jpg'
 import cv from '../assests/doc/Resume-Pawan-Kumar-Siwakoti.pdf'
+import Layout from './Layout'
 
 const Hero = () => {
   return (
-    <>
+    <Layout>
     <section className="section1 " id="home">
      <div className="hero grid">
      <div className="left flex">
@@ -62,7 +63,7 @@ const Hero = () => {
          </div>
      </div>
     </section>
-    </>
+    </Layout>
   )
 }
 

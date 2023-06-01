@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
-           <label for="darkmode">
+           <label htmlFor="darkmode">
      <i className="fa-solid fa-circle-half-stroke dark-mode-toggler">
      </i>
  </label>
@@ -18,13 +19,13 @@ const Header = () => {
          </div>
          <div className="right">
              <input type="checkbox" id="check"/>
-             <label className="menu-icon" for="check"><i className="fa-solid fa-bars "></i></label>
+             <label className="menu-icon" htmlFor="check"><i className="fa-solid fa-bars "></i></label>
              <ul className="navigation flex">
-                 <li><a href="#home">Home</a></li>
-                 <li><a href="#skills">Skills</a></li>
-                 <li><a href="#projects">Projects</a></li>
-                 <li><a href="#about">About</a></li>
-                 <li><a href="#contact">Contact</a></li>
+                 <li><Link to="/">Home</Link></li>
+                 <li><Link to ="/skills">Skills</Link></li>
+                 <li><Link to="/projects">Projects</Link></li>
+                 <li><Link to="/about">About</Link></li>
+                 <li><Link to="/contact">Contact</Link></li>
              </ul>
          </div>
      </header>
