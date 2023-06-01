@@ -7,7 +7,7 @@ const About = () => {
     <h2 className="title">About me</h2>
     <div className="about-container flex">
         <div className="left">
-            <image src={Pawan} alt="image"/>
+            <img src={Pawan} alt="profile-pic"/>
         </div>
         <div className="right flex">
             <h2>Pawan Siwakoti</h2>
