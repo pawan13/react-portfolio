@@ -37,9 +37,14 @@ const Footer = () => {
          <div className="socials flex">
              <h3>Socials</h3>
              <ul className=" flex ">
-                 <li>Linkedin</li>
-                 <li>Github</li>
-                 <li>Youtube</li>
+                 <li><a href="https://www.linkedin.com/in/pawansiwakoti" target='_blank'
+         rel='noreferrer noopener'></a>Linkedin</li>
+                 <li><a href="https://github.com/pawan13"target='_blank'
+         rel='noreferrer noopener'></a>Github</li>
+                 <li> <a href="https://www.youtube.com/@pawanshiwakoti5164"target='_blank'
+         rel='noreferrer noopener'></a>Youtube</li>
+                 <li><a href="https://twitter.com/Pawankshiwakoti"target='_blank'
+         rel='noreferrer noopener'></a>Twitter</li>
              </ul>
          </div>
      </div>
