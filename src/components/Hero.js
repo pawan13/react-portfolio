@@ -1,6 +1,6 @@
 import React from 'react'
 import Pawan from '../assests/img/Pawan_Edited.jpg'
-import cv from '../assests/doc/resume-pawan-kumar-siwakoti.pdf'
+import cv from '../assests/doc/Resume-Pawan-Kumar-Siwakoti.pdf'
 
 const Hero = () => {
   return (
