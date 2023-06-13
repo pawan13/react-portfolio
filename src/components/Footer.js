@@ -38,13 +38,13 @@ const Footer = () => {
              <h3>Socials</h3>
              <ul className=" flex ">
                  <li><a href="https://www.linkedin.com/in/pawansiwakoti" target='_blank'
-         rel='noreferrer noopener'></a>Linkedin</li>
+         rel='noreferrer noopener'>Linkedin</a></li>
                  <li><a href="https://github.com/pawan13"target='_blank'
-         rel='noreferrer noopener'></a>Github</li>
+         rel='noreferrer noopener'>Github</a></li>
                  <li> <a href="https://www.youtube.com/@pawanshiwakoti5164"target='_blank'
-         rel='noreferrer noopener'></a>Youtube</li>
+         rel='noreferrer noopener'>Youtube</a></li>
                  <li><a href="https://twitter.com/Pawankshiwakoti"target='_blank'
-         rel='noreferrer noopener'></a>Twitter</li>
+         rel='noreferrer noopener'>Twitter</a></li>
              </ul>
          </div>
      </div>
