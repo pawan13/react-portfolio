@@ -108,7 +108,8 @@ ul {
   left: 45%;
   position: absolute;
 }
-.primary-header .right #check, .primary-header .right .menu-icon {
+.primary-header .right #check,
+.primary-header .right .menu-icon {
   display: none;
 }
 .primary-header .right .navigation {
@@ -265,6 +266,8 @@ ul {
   padding-top: 10rem;
 }
 .section3 .skills-container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 8rem;
@@ -273,6 +276,7 @@ ul {
   flex-direction: column;
   align-items: center;
   font-weight: bolder;
+  margin: 1rem;
 }
 .section3 .skills-container div i {
   font-size: 3rem;
@@ -453,17 +457,21 @@ footer .footer-container {
   justify-content: space-around;
   margin-bottom: 4rem;
 }
-footer .footer-container .links, footer .footer-container .socials {
+footer .footer-container .links,
+footer .footer-container .socials {
   flex-direction: column;
 }
-footer .footer-container .links h3, footer .footer-container .socials h3 {
+footer .footer-container .links h3,
+footer .footer-container .socials h3 {
   text-transform: uppercase;
 }
-footer .footer-container .links ul, footer .footer-container .socials ul {
+footer .footer-container .links ul,
+footer .footer-container .socials ul {
   flex-direction: column;
   padding: 0;
 }
-footer .footer-container .links ul li a:hover, footer .footer-container .socials ul li a:hover {
+footer .footer-container .links ul li a:hover,
+footer .footer-container .socials ul li a:hover {
   color: var(--color-yellow);
   transition: all 0.5s;
 }
