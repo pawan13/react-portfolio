@@ -20,16 +20,13 @@ function App() {
         <Hero />
         {/* <!-- skills component --> */}
         <Skills />
-
         {/* <!-- projects Component--> */}
         <Projects />
-
+        Coming soon ...
         {/* <!-- About Component  --> */}
         <About />
-
         {/* <!-- get in touch section  --> */}
         <Contact />
-
         {/* <!-- footer  --> */}
         <Footer />
       </div>

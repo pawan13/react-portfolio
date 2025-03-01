@@ -1,5 +1,0 @@
-@mixin tablet(){
-    @media(width <= 760px){
-        @content;
-    }
-}
